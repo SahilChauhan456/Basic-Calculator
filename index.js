@@ -4,7 +4,6 @@ const inputFieldEl = document.getElementById("result");
 
 for (let i = 0; i < buttonEl.length; i++) {
   buttonEl[i].addEventListener("click", () => {
-    console.log(buttonEl[i].textContent);
     const buttonValue = buttonEl[i].textContent;
     if (buttonValue === "C") {
       clearResult();
